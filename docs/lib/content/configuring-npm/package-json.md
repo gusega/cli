@@ -344,7 +344,7 @@ program.  That is, if your package is named `foo`, and a user installs it,
 and then does `require("foo")`, then your main module's exports object will
 be returned.
 
-This should be a module relative to the root of your package folder.
+This should be a module relative to the root folder of your package.
 
 For most modules, it makes the most sense to have a main script and often
 not much else.
